@@ -8,7 +8,7 @@ name: Deploy Content to customer-simulation-law [27782031-41bc-40f1-8982-ba818c9
 #    - '.github/workflows/sentinel-deploy-27782031-41bc-40f1-8982-ba818c98147f.yml'
 #   2. Append the path to the directory environment variable below
 #       directory: '${{ github.workspace }}/SentinelContent'
-  
+   
 on:
   push:
     branches: [ master ]
