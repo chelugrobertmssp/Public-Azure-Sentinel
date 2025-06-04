@@ -13,7 +13,8 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ master, insights_preview ]
+    # branches: [ master, insights_preview ]
+    branches: [ insights_preview ]
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ master ]
