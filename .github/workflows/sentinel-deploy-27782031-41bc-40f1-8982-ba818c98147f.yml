@@ -15,7 +15,7 @@ on:
     - '**'
     - '!.github/workflows/**'  # this filter prevents other workflow changes from triggering this workflow
     - '.github/workflows/sentinel-deploy-27782031-41bc-40f1-8982-ba818c98147f.yml'
-
+ 
 jobs:
   deploy-content:
     runs-on: windows-latest
